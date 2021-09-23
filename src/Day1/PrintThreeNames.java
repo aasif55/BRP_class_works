@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class PrintThreeNames {
     public static void main(String[] args) {
 
-        //String[] arr = {"asif","anup","akash"};
-        String[] arr = new String[3];
-        Scanner sc=new Scanner(System.in);
+        //String[] arr = {"Alice","Bob","Carol"};
+        Scanner sc=new Scanner(System.in); //taking user's input
+        String[] arr = new String[3]; //initialize the array
+        System.out.println("Enter three names: ");
         for(int i=0;i<3;i++)
         {
             arr[i] = sc.next();
